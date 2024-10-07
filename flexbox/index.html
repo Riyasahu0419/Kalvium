@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <title>Masai Investors</title>
+    <style>
+      * {
+        font-family: 'Poppins';
+      }
+
+      #container {
+        padding: 5px;
+        margin: auto;
+      }
+
+      .child_imagebox {
+        text-align: center;
+      }
+
+      .child {
+        margin-left: auto;
+        margin-right: auto;
+        justify-items: center;
+      }
+
+      .child img {
+        width: 350px;
+        margin: 50px;
+      }
+
+      .parent {
+        border: 1px;
+      }
+
+      .images {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .img {
+        text-align: center;
+      }
+
+      .image {
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+      }
+
+      .company {
+        width: 200px;
+        margin: 5px;
+      }
+
+      .box {
+        width: 300px;
+        height: 400px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 9px;
+        justify-content: center;
+      }
+
+      .company_logo {
+        width: 130px;
+      }
+
+      strong {
+        font-size: 15px;
+      }
+
+      span {
+        font-size: 10px;
+      }
+
+      .text {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        justify-items: center;
+      }
+
+      .company_logo_cred {
+        width: 120px;
+      }
+
+      .company_logo_pinelabs {
+        width: 130px;
+      }
+
+      .company_logo_instamojo {
+        width: 130px;
+      }
+
+      /* Media Queries for responsiveness */
+      @media (max-width: 1024px) {
+        .images {
+          flex-wrap: wrap;
+        }
+
+        .image {
+          width: 250px;
+          height: 250px;
+        }
+
+        .box {
+          width: 270px;
+          height: 370px;
+        }
+
+        .child img {
+          width: 300px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .images {
+          flex-direction: column;
+          align-items: center;
+          gap: 30px;
+        }
+
+        .image {
+          width: 200px;
+          height: 200px;
+        }
+
+        .box {
+          width: 220px;
+          height: 320px;
+        }
+
+        .child img {
+          width: 250px;
+        }
+
+        .company_logo {
+          width: 100px;
+        }
+
+        .company_logo_cred, .company_logo_pinelabs, .company_logo_instamojo {
+          width: 100px;
+        }
+
+        strong {
+          font-size: 13px;
+        }
+
+        span {
+          font-size: 9px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .child img {
+          width: 200px;
+        }
+
+        .image {
+          width: 150px;
+          height: 150px;
+        }
+
+        .box {
+          width: 180px;
+          height: 250px;
+        }
+
+        .company_logo {
+          width: 80px;
+        }
+
+        .company_logo_cred, .company_logo_pinelabs, .company_logo_instamojo {
+          width: 80px;
+        }
+
+        strong {
+          font-size: 12px;
+        }
+
+        span {
+          font-size: 8px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="child">
+        <div class="child">
+          <h1 style="text-align: center;">
+            <b>Nature Stocks</b>
+          </h1>
+        </div>
+        
+      </div>
+      <div class="parent">
+      
+        <div class="images">
+          <div class="img">
+            <div class="box">
+              <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="image" />
+              <div class="text">
+                <strong>The moon, sun, river, clouds, mountain, rain, water</strong>
+               
+               
+              </div>
+            </div>
+          </div>
+          <div class="img">
+            <div class="box">
+              <img src="https://images.ctfassets.net/hrltx12pl8hq/3Z1N8LpxtXNQhBD5EnIg8X/975e2497dc598bb64fde390592ae1133/spring-images-min.jpg" class="image" />
+              <div class="text">
+                <strong>The way a butterfly flutters from flower to flower is graceful.</strong>
+                
+              </div>
+            </div>
+          </div>
+          <div class="img">
+            <div class="box">
+              <img src="https://images.unsplash.com/photo-1713988846443-3d7ff4f41398?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGxhdGVzdHxlbnwwfHwwfHx8MA%3D%3D" class="image" />
+              <div class="text">
+                <strong>the leaves are submerged in water</strong>
+               
+              </div>
+            </div>
+          </div>
+          <div class="img">
+            <div class="box">
+              <img src="https://thumbs.dreamstime.com/b/nature-water-drops-leaves-raindrops-colorful-scene-spring-autumn-76637040.jpg" class="image" />
+              <div class="text">
+                <strong>water droplets on the leaves, as these are such a wonderful subjects to photograph.</strong>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
